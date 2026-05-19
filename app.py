@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 st.set_page_config(page_title="GES Elektrik Üretim Tahmini", layout="centered")
-st.title("☀️ Güneş Enerjisi Santrali (GES) Güç Tahmin Sistemi")
+st.title("Güneş Enerjisi Santrali (GES) Güç Tahmin Sistemi")
 st.markdown("Hava durumu verilerini girerek üretilecek elektrik miktarını (kW) tahmin edin.")
 
 @st.cache_resource
